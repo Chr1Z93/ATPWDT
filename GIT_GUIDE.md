@@ -45,7 +45,7 @@ Windows:
 STEP 3 — CREATE AN SSH KEY (ONE TIME ONLY)
 --------------------------------------------------
 
-Run this command (in Terminal on macOS or Git Bash on Windows):
+Run this command (in Terminal on macOS or Git Bash on Windows):  
 
 ssh-keygen -t ed25519 -C "your_email@example.com"
 
@@ -58,13 +58,13 @@ When asked:
 STEP 4 — START SSH AND ADD THE KEY
 --------------------------------------------------
 
-macOS:
-eval "$(ssh-agent -s)"
-ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+macOS:  
+eval "$(ssh-agent -s)"  
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519  
 
-Windows (Git Bash):
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
+Windows (Git Bash):  
+eval "$(ssh-agent -s)"  
+ssh-add ~/.ssh/id_ed25519  
 
 --------------------------------------------------
 STEP 5 — ADD SSH KEY TO GITHUB (ONE TIME ONLY)
@@ -72,10 +72,10 @@ STEP 5 — ADD SSH KEY TO GITHUB (ONE TIME ONLY)
 
 Copy your public key:
 
-macOS:
+macOS:  
 pbcopy < ~/.ssh/id_ed25519.pub
 
-Windows:
+Windows:  
 cat ~/.ssh/id_ed25519.pub
 
 Then:
@@ -90,7 +90,7 @@ Then:
 STEP 6 — TEST CONNECTION
 --------------------------------------------------
 
-Run this command (in Terminal on macOS or Git Bash on Windows):
+Run this command (in Terminal on macOS or Git Bash on Windows):  
 ssh -T git@github.com
 
 You should see a success message.
