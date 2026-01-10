@@ -1,0 +1,13 @@
+{
+  "0": {
+    "body": "Grid for laying out on hexes:\n\nSnapping:   Center\nOffset:        X = 0        Y = 0\nGrid Size:    X = 2.65    Y = 2.65\n\nGrid for laying out on squares:\n\nSnapping:   Center\nOffset:        X = 0        Y = 0\nGrid Size:    X = 2         Y = 2",
+    "color": "Grey",
+    "id": 0,
+    "title": "Rules",
+    "visibleColor": {
+      "b": 0.5,
+      "g": 0.5,
+      "r": 0.5
+    }
+  }
+}

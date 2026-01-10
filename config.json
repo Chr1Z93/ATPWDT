@@ -1,0 +1,68 @@
+{
+  "CameraStates": [],
+  "ComponentTags": {
+    "labels": []
+  },
+  "CustomUIAssets": [],
+  "DecalPallet": [],
+  "Decals": [],
+  "GameComplexity": "Low Complexity",
+  "GameMode": "Plain Table Simple\n",
+  "GameType": "Game",
+  "Gravity": 0.5,
+  "Grid_path": "Grid.json",
+  "Hands": {
+    "DisableUnused": false,
+    "Enable": true,
+    "Hiding": 0
+  },
+  "Lighting_path": "Lighting.json",
+  "LuaScriptState": "",
+  "LuaScript_path": "LuaScript.ttslua",
+  "MusicPlayer": {},
+  "Note": "",
+  "ObjectStates_order": [
+    "HandTrigger.b1d15a",
+    "Custom_Tile.f47e19"
+  ],
+  "PlayArea": 0.5,
+  "PlayerCounts": [
+    0,
+    0
+  ],
+  "PlayingTime": [
+    0,
+    0
+  ],
+  "SaveName": "Arydia",
+  "Sky": "Sky_Museum",
+  "SnapPoints_path": "SnapPoints.json",
+  "TabStates_path": "TabStates.json",
+  "Table": "Table_None",
+  "Tags": [],
+  "Turns_path": "Turns.json",
+  "VectorLines": [
+    {
+      "color": {
+        "b": 1,
+        "g": 1,
+        "r": 1
+      },
+      "points3": [
+        {
+          "x": 32.65,
+          "y": 0.99,
+          "z": -28.47
+        },
+        {
+          "x": 32.89,
+          "y": 0.99,
+          "z": -28.47
+        }
+      ],
+      "thickness": 0.1
+    }
+  ],
+  "VersionNumber": "v13.3",
+  "XmlUI_path": "Root.xml"
+}
