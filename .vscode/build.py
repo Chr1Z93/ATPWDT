@@ -105,16 +105,12 @@ def main():
     # Handle dynamic file copying if the action is 'build'
     if args.action == "build":
         source_file = GAME_NAME + ".png"
-        if branch and branch != "main":
-            source_file = GAME_NAME + "_dev.png"
-
         shutil.copy(source_file, os.path.join(output_folder, GAME_NAME + ".png"))
 
     # Calculate and print the elapsed time
     elapsed_time = time.time() - start_time
     print(f"Execution took {elapsed_time:.2f} seconds.")
 
-    # Attempt to load the created savegame in TTS
     # Attempt to load the created savegame in TTS
     if args.action == "build":
         target_title = "Tabletop Simulator"
